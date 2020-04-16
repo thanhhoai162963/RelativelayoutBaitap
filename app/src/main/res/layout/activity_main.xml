@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+
+        android:id="@+id/thanh"
+        android:text="Red11111"
+        android:textColor="#ffff"
+        android:background="#FF003B"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/thanh1"
+        android:layout_below="@id/thanh"
+        android:layout_alignLeft="@id/thanh"
+        android:text="Green"
+        android:background="#08FF00"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/thanh2"
+        android:background="#002AFF"
+        android:layout_below="@id/thanh1"
+        android:layout_alignLeft="@id/thanh"
+        android:text="Blue"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/thanh3"
+        android:layout_below="@id/thanh2"
+        android:layout_alignLeft="@id/thanh"
+        android:text="Orange"
+        android:background="#F57C00"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="#ffff"
+        android:id="@+id/thanh4"
+        android:layout_below="@id/thanh3"
+        android:layout_alignLeft="@id/thanh"
+        android:text="Gray"
+        android:background="#BBDEFB"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="#ffff"
+        android:background="#D000FF"
+        android:layout_below="@id/thanh4"
+        android:layout_alignLeft="@id/thanh"
+        android:text="Pink"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>
